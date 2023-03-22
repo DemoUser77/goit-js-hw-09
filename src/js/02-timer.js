@@ -10,6 +10,8 @@ const minutesEL = document.querySelector('[data-minutes]');
 const secondsEL = document.querySelector('[data-seconds]');
 
 let selectedDate = null;
+let intervalId = null;
+let currentDate = null;
 
 buttonStarEl.disabled = true;
 buttonStarEl.addEventListener('click', handleStartCounter);
