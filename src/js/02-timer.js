@@ -9,6 +9,7 @@ const hoursEL = document.querySelector('[data-hours]');
 const minutesEL = document.querySelector('[data-minutes]');
 const secondsEL = document.querySelector('[data-seconds]');
 
+let selectedDate = null;
 
 buttonStarEl.disabled = true;
 buttonStarEl.addEventListener('click', handleStartCounter);
